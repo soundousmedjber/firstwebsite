@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+html, body {
+    margin: 0;
+    height: 100%;
+}
+
+body {
+    background-color: #CAC3B5;
+    font-family: 'Montserrat', sans-serif;
+}
+
+a{
+    text-decoration: none;
+    color: inherit;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 120px;
+    background-color: #BEB7AA;
+}
+
+nav #logo {
+    font-family: 'Pacifico', cursive;
+}
+
+.nav-links a{
+    margin-right: 35px;
+}
+
+.nav-right button{
+    background-color: black;
+    border-radius: 50%;
+    height: 40px;
+    width: 40px;
+    font-size: 20px;
+    margin-left: 35px;
+}
+
+#main {
+    margin-top: 15vh;
+    text-align: center;
+
+}
+#main h1{
+    font-size: 45px;
+    font-weight: lighter;
+    text-transform: capitalize;
+    margin-left: 20%;
+    margin-right: 20%;
+}
+
+#main p{
+    margin-left: 20%;
+    margin-right: 20%;
+}
+
+#vases {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 15vh;
+    text-align: center;
+}
+
+#vases .box img {
+    width: 200px;
+}
+
+#shop {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#shop button {
+    background-color: black;
+    color: white;
+    padding: 15px 60px;
+    font-weight: bolder;
+    font-family: "Montserrat", sans-serif;
+}
+#story {
+    display: flex;
+    align-items: center;
+}
+#story img{
+    width: 100px !important;
+    margin-right: 30px;
+}
+
+footer{
+    background-color: #BEB7AA;
+    padding: 50px 100px;
+    display: flex;
+    justify-content: space-between;
+}
+footer #middle-box {
+    border-right: 2px dotted black;
+    border-left: 2px dotted black;
+}
+
+footer div {
+    padding: 0 40px;
+}
+
